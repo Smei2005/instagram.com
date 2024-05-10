@@ -6,14 +6,13 @@
     <link rel="icon" style="border-radius: 100px;" href="https://th.bing.com/th/id/R.6d49e7d37a0b51d9b586a13a03011da8?rik=VTgHQ58TrXO4Sg&pid=ImgRaw&r=0">
     <script src=’https://www.google.com/recaptcha/api.js’></script>
     <title>Instagram</title>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-        
-    </head>
-</head>
-<body>
-    <button class="g-recaptcha" 
-        data-sitekey="6LcvYtgpAAAAALJMjbmsfYFTucnxcnrUfDU7X-YQ" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>
-</body>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LcvYtgpAAAAALJMjbmsfYFTucnxcnrUfDU7X-YQ"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
 </html>
